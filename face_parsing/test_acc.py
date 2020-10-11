@@ -4,8 +4,8 @@ from os.path import isfile, join
 import os
 import numpy as np
 
-mypath = './test_color_visualize'
-mypath_2 = './Data_preprocessing/test_label'
+mypath = './Data_preprocessing/test_label'
+mypath_2 = './test_results'
 
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 img_color = np.empty(len(onlyfiles), dtype=object)
