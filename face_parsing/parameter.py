@@ -13,7 +13,7 @@ def get_parameters():
     parser.add_argument('--version', type=str, default='parsenet')
 
     # Training setting
-    parser.add_argument('--total_step', type=int, default=1000000, help='how many times to update the generator')
+    parser.add_argument('--total_step', type=int, default=1000000, help='how many times to update the generator') #default=1000000
     parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--num_workers', type=int, default=2)
     parser.add_argument('--g_lr', type=float, default=0.0002)
@@ -22,8 +22,8 @@ def get_parameters():
     parser.add_argument('--beta2', type=float, default=0.999)
 
     # Testing setting
-    parser.add_argument('--test_size', type=int, default=2824) 
-    parser.add_argument('--model_name', type=str, default='model.pth') 
+    parser.add_argument('--test_size', type=int, default=2824)
+    parser.add_argument('--model_name', type=str, default='model.pth')
 
     # using pretrained
     parser.add_argument('--pretrained_model', type=int, default=None)
@@ -35,17 +35,17 @@ def get_parameters():
 
     # Path
     parser.add_argument('--img_path', type=str, default='./Data_preprocessing/train_img')
-    parser.add_argument('--label_path', type=str, default='./Data_preprocessing/train_label') 
+    parser.add_argument('--label_path', type=str, default='./Data_preprocessing/train_label')
     parser.add_argument('--log_path', type=str, default='./logs')
     parser.add_argument('--model_save_path', type=str, default='./models')
     parser.add_argument('--sample_path', type=str, default='./samples')
-    parser.add_argument('--test_image_path', type=str, default='./Data_preprocessing/test_img') 
-    parser.add_argument('--test_label_path', type=str, default='./test_results') 
-    parser.add_argument('--test_color_label_path', type=str, default='./test_color_visualize') 
+    parser.add_argument('--test_image_path', type=str, default='./Data_preprocessing/test_img')
+    parser.add_argument('--test_label_path', type=str, default='./test_results')
+    parser.add_argument('--test_color_label_path', type=str, default='./test_color_visualize')
 
     # Step size
     parser.add_argument('--log_step', type=int, default=10)
-    parser.add_argument('--sample_step', type=int, default=100)
+    parser.add_argument('--sample_step', type=int, default=100) #default=100
     parser.add_argument('--model_save_step', type=float, default=1.0)
 
     return parser.parse_args()

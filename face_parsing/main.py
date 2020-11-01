@@ -16,8 +16,7 @@ def main(config):
         make_folder(config.sample_path, config.version)
         make_folder(config.log_path, config.version)
 
-        data_loader = Data_Loader(config.img_path, config.label_path, config.imsize,
-                             config.batch_size, config.train)
+        data_loader = Data_Loader(config.img_path, config.label_path, config.imsize, config.batch_size, config.train)
         trainer = Trainer(data_loader.loader(), config)
         trainer.train()
     else:
