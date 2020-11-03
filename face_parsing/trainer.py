@@ -136,7 +136,7 @@ class Trainer(object):
                 #labels_sample = torch.from_numpy(labels_sample)
                 save_image(denorm(labels_sample.data), os.path.join(self.sample_path, '{}_predict.png'.format(step + 1)))
 
-            if (step+1) % self.model_save_step==0:
+            if (step+1) % self.model_save_step==0: # added self.
                 torch.save(self.G.state_dict(), os.path.join(self.model_save_path, '{}_G.pth'.format(step + 1)))
 
     def build_model(self):
