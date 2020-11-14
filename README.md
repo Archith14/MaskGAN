@@ -1,3 +1,10 @@
+# Machine Learning Term Project
+  Team name: mlMayhem
+  Members: 
+    Raghurama Varma Gonela (2018A7PS1120P)
+    Archith Nandanavanam (2018A7PS0270P)
+    Konepalli Bhanu Prakash Reddy (2018A3PS0317P)
+
 # CelebAMask-HQ
 
 [[Paper]](https://arxiv.org/abs/1907.11922) [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)  
