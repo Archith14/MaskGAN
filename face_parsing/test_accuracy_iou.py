@@ -23,4 +23,4 @@ for n in range(n_images):
     cv2.destroyAllWindows()
 
 final_accuracy=t_acc/n_images
-print("Average IOU score =",final_accuracy,"%")
+print("Average IOU score =",final_accuracy*100,"%")
