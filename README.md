@@ -1,6 +1,16 @@
 # Machine Learning Term Project
-
-  Team name: mlMayhem
+  
+  Course: 
+    
+    Machine Learning (BITS F464)
+    
+  Instructor:
+    
+    Dr. Kamlesh Tiwari (Ass. Professor, BITS Pilani, Pilani campus)
+  
+  Team name: 
+    
+    mlMayhem
   
   Members:
   
