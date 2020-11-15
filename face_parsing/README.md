@@ -34,3 +34,8 @@ A Pytorch implementation face parsing model trained by CelebAMask-HQ
 * Results will be saved in `./test_results`
 * Color visualized results will be saved in `./test_color_visualize`
 * Another way for color visualization without using GPU: Run `python ./Data_preprocessing/g_color.py` 
+## Evaluating the model
+* Run `python test_accuracy_ppa.py` for per-pixel accuracy (grayscale)
+* Run `python test_accuracy_ppa-color.py` for per-pixel accuracy (colorized)
+* Run `python test_accuracy_iou.py` for IOU score (grayscale)
+* Run `python test_accuracy_iou-color.py` for IOU score (colorized)
