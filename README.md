@@ -20,6 +20,7 @@
     
     Konepalli Bhanu Prakash Reddy (2018A3PS0317P)
   Paper:
+    
     https://www.overleaf.com/read/fyhhcwfgttgq
 
 # CelebAMask-HQ
