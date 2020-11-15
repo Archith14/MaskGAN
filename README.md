@@ -6,7 +6,7 @@
     
   Instructor:
     
-    Dr. Kamlesh Tiwari (Ass. Professor, BITS Pilani, Pilani campus)
+    Dr. Kamlesh Tiwari (Assistant Professor, BITS Pilani)
   
   Team name: 
     
